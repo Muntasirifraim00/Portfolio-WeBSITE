@@ -16,7 +16,7 @@ const Menu = () => {
                 name={"android-list"}
                 link="/resume#resume"
             >
-                Resume
+                Education
             </Menu.Item>
             <Menu.Item
                 name={'paintbrush'}

@@ -14,11 +14,12 @@ const Profile = () => {
         <div className="profile">
             <div className="profile__banner">
                 <div className={`profile__photo ${animation}`} style={{backgroundImage: `url(${backgroundImage})`}} />
-                <img src="https://i.ibb.co/QPDLG6v/T4-CCV1-V4-G-UQ4-KGNEQ1-d074b7ae683a-512.jpg" alt={type} />
+                <img src="https://files.fm/thumb.php?i=4eamsu8dm" alt={type} />
             </div>
+            
             <div className="profile__content">
                 <div className="profile__title">
-                    Emre Baskan
+                    MUNTASIR IFRAIM
                 </div>
                 <TypedText
                   dataText={
@@ -30,18 +31,15 @@ const Profile = () => {
                   }
                 />
                 <SocialLinks/>
-                <Info icon="location">
-                    KYIV / ISTANBUL
-                </Info>
                 <Skills />
             </div>
             <div className="profile__contact">
-                <a href="https://drive.google.com/file/d/1rzAuF9qNB0ZqHMFamNG_b00bW2oKoAya/view?usp=sharing" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1NfcKQFQNT1B38Yuz7C0xkNz81N1eyBBh/view?usp=sharing" target="_blank" rel="noreferrer">
                         <span>
                             Download CV
                         </span>
                 </a>
-                <a href="mailto:3mr3baskan@gmail.com">
+                <a href="muntasirifraim00@gmail.com">
                         <span>
                             Contact Me
                         </span>

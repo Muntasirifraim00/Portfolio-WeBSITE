@@ -23,10 +23,8 @@ const Works = () => {
             </Title>
             <WorksMenu
                 items={[
-                    'react',
-                    'angular',
-                    'vue',
-                    'js'
+                    'react'
+                   
                 ]}
                 selected={selectedType}
                 clicked={handleMenuChange}

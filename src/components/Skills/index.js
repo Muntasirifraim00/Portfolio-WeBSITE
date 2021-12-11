@@ -19,12 +19,10 @@ const Skills = () => {
                 onMouseLeave={startThemeChangeTimer}
                 onMouseOver={handleMouseEnter} >
                 <li id="react" >React</li>
-                <li id="angular">Angular</li>
-                <li id="vue">Vue</li>
-                <li id="rxjs">Rxjs</li>
                 <li id="redux">Redux</li>
                 <li id="node">Node</li>
-                <li id="ngrx">Ngrx</li>
+                <li id="Express">Express</li>
+                <li id="MongoDb">MongoDb</li>
                 <li id="javascript">JavaScript</li>
             </ul>
         </div>
